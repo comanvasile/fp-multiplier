@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FP Multiplier.srcs/sources_1/new/SE.vhd" \
+"../../../../FP Multiplier.srcs/sources_1/new/Adder.vhd" \
+"../../../../FP Multiplier.srcs/sources_1/new/Multiplier.vhd" \
+"../../../../FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd" \
+"../../../../FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd" \
+"../../../../FP Multiplier.srcs/sim_1/new/SimMultiply.vhd" \
+
+# Do not sort compile order
+nosort

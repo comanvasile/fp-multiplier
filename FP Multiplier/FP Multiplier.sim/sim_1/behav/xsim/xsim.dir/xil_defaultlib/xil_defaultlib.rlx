@@ -1,0 +1,13 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sim_1/new/SimMultiply.vhd,1559031545,vhdl,,,,simmultiply,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd,1559032337,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd;D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd,,,adder,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd,1559657255,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sim_1/new/SimMultiply.vhd,,,fpmultiplier,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Multiplier.vhd,1558979506,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd,,,multiplier,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd,1558979493,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd,,,normalizeexpman,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/SE.vhd,1558980408,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd;D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Multiplier.vhd,,,se,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/IEEE754_multiplyer.vhd,1559024699,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/simIEEE754_Mul.vhd,,,ieee754_multiplyer,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/displ7seg.vhd,1487847344,vhdl,D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Main.vhd,,,displ7seg,,,,,,,,
+D:/School - V/Vasy/An3/SSC/FP Multiplier/simIEEE754_Mul.vhd,1558985591,vhdl,,,,simieee754_mul,,,,,,,,

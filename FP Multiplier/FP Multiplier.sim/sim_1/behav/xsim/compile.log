@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/FPMultiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FPMultiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sim_1/new/SimMultiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SimMultiply

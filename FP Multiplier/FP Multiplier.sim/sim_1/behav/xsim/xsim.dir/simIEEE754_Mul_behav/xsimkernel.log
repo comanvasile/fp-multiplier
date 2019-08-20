@@ -1,0 +1,7 @@
+Running: xsim.dir/simIEEE754_Mul_behav/xsimk.exe -simmode gui -wdb simIEEE754_Mul_behav.wdb -simrunnum 0 -socket 52290
+Design successfully loaded
+Design Loading Memory Usage: 8480 KB (Peak: 8480 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 9888 KB (Peak: 9888 KB)
+Simulation CPU Usage: 93 ms

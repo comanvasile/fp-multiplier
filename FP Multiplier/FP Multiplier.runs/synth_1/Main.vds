@@ -1,0 +1,558 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 28 12:33:23 2019
+# Process ID: 2452
+# Current directory: D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.runs/synth_1/Main.vds
+# Journal file: D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2976 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 357.742 ; gain = 98.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Main.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Debouncer.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (1#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Debouncer.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'DecoderKeyboard' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DecoderKeyboard.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'DecoderKeyboard' (2#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DecoderKeyboard.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'MuxOperand' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/MuxOperand.vhd:42]
+INFO: [Synth 8-226] default block is never used [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/MuxOperand.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'MuxOperand' (3#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/MuxOperand.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'DLatch' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLatch' (4#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'DLatch__parameterized0' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLatch__parameterized0' (4#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'DLatch__parameterized1' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLatch__parameterized1' (4#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'Operand_Comparator' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:43]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Operand_Comparator' (5#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'Operand_Comparator__parameterized0' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:43]
+	Parameter N bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Operand_Comparator__parameterized0' (5#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'Adder' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd:43]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SE' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/SE.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'SE' (6#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/SE.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Adder' (7#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'Multiplier' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Multiplier.vhd:41]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplier' (8#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Multiplier.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'DLatch__parameterized2' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+	Parameter N bound to: 48 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLatch__parameterized2' (8#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'NormalizeExpMan' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'Adder__parameterized0' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd:43]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Adder__parameterized0' (8#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Adder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'NormalizeExpMan' (9#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/ControlUnit.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (10#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/ControlUnit.vhd:48]
+WARNING: [Synth 8-153] case item 2'b1x will never be executed [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Main.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'displ7seg' [D:/School - V/Vasy/An3/SSC/FP Multiplier/displ7seg.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'displ7seg' (11#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/displ7seg.vhd:36]
+WARNING: [Synth 8-3848] Net Error in module/entity Main does not have driver. [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Main.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Main' (12#1) [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Main.vhd:49]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[22]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[21]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[20]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[19]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[18]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[17]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[16]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[15]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[14]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[13]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[12]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[11]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[10]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[9]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[8]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[7]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[6]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[5]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[4]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[3]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[2]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[1]
+WARNING: [Synth 8-3331] design NormalizeExpMan has unconnected port Mantisa[0]
+WARNING: [Synth 8-3331] design Operand_Comparator__parameterized0 has unconnected port Clk
+WARNING: [Synth 8-3331] design Operand_Comparator has unconnected port Clk
+WARNING: [Synth 8-3331] design Main has unconnected port Error
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 411.020 ; gain = 151.551
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 411.020 ; gain = 151.551
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/School - V/Vasy/An3/SSC/FP Multiplier/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [D:/School - V/Vasy/An3/SSC/FP Multiplier/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/School - V/Vasy/An3/SSC/FP Multiplier/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 769.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 769.922 ; gain = 510.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 769.922 ; gain = 510.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 769.922 ; gain = 510.453
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element sclk_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DecoderKeyboard.vhd:51]
+INFO: [Synth 8-5544] ROM "Decoder_Out" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Decoder_Out" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Decoder_Out" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Decoder_Out" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'Display_Rez_reg' into 'Finish_reg' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/ControlUnit.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element Display_Rez_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/ControlUnit.vhd:67]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ControlUnit'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'ZeroOperand_reg' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'ZeroOperand_reg' [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/Operand_Comparator.vhd:49]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+           start_process |                             0001 |                             0001
+              initialize |                             0010 |                             0011
+                 compare |                             0011 |                             0010
+                 add_exp |                             0100 |                             0100
+                add_bias |                             0101 |                             0101
+        multiply_mantise |                             0110 |                             0110
+               normalize |                             0111 |                             0111
+                    stop |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ControlUnit'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 769.922 ; gain = 510.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 578   
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               32 Bit    Registers := 3     
+	               24 Bit    Registers := 2     
+	               23 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 16    
+	  11 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   9 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Main 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module DecoderKeyboard 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 16    
+	  11 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module MuxOperand 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module DLatch 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+Module DLatch__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
+Module DLatch__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module Operand_Comparator 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module Operand_Comparator__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module SE 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module DLatch__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	               48 Bit    Registers := 1     
+Module NormalizeExpMan 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  14 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 10    
+Module displ7seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element semn_21/aux_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DLatch.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element normalizarea/MantisaOut_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/NormalizeExpMan.vhd:55]
+WARNING: [Synth 8-6014] Unused sequential element control/LoadRez_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/ControlUnit.vhd:64]
+INFO: [Synth 8-5544] ROM "afisare/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_comp/ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_comp/ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mantisa_comp/ZeroOperand" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mantisa_comp/ZeroOperand" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element decodificare_PModKYBD/sclk_reg was removed.  [D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.srcs/sources_1/new/DecoderKeyboard.vhd:51]
+WARNING: [Synth 8-3331] design Main has unconnected port Error
+INFO: [Synth 8-3886] merging instance 'mantisa_1/aux_reg[23]' (FDRE) to 'mantisa_2/aux_reg[23]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[7]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[6]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[5]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[4]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[3]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3886] merging instance 'normalizarea/increment_reg[2]' (FDRE) to 'normalizarea/increment_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\normalizarea/increment_reg[1] )
+INFO: [Synth 8-3886] merging instance 'exponent_1/aux_reg[8]' (FDRE) to 'exponent_2/aux_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\exponent_2/aux_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\mantisa_comp/ZeroOperand_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\exp_comp/ZeroOperand_reg )
+WARNING: [Synth 8-3332] Sequential element (exp_comp/ZeroOperand_reg) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (mantisa_comp/ZeroOperand_reg) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[46]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[45]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[44]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[43]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[42]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[41]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[40]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[39]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[38]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[37]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[36]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[35]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[34]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[33]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[32]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[15]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[14]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[13]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[12]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[11]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[10]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[9]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[8]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (salvare_mantisa/aux_reg[0]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (normalizarea/increment_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (exponent_2/aux_reg[8]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:20 ; elapsed = 00:01:20 . Memory (MB): peak = 769.922 ; gain = 510.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:36 ; elapsed = 00:01:36 . Memory (MB): peak = 812.141 ; gain = 552.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:38 . Memory (MB): peak = 831.039 ; gain = 571.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:38 ; elapsed = 00:01:39 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     1|
+|4     |LUT2   |   568|
+|5     |LUT3   |    46|
+|6     |LUT4   |   213|
+|7     |LUT5   |    93|
+|8     |LUT6   |  1016|
+|9     |MUXF7  |     4|
+|10    |FDRE   |   225|
+|11    |IBUF   |    11|
+|12    |OBUF   |    21|
+|13    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+-------------------------+------+
+|      |Instance                |Module                   |Cells |
++------+------------------------+-------------------------+------+
+|1     |top                     |                         |  2210|
+|2     |  afisare               |displ7seg                |    76|
+|3     |  control               |ControlUnit              |    17|
+|4     |  decodificare_PModKYBD |DecoderKeyboard          |   101|
+|5     |  exponent_1            |DLatch__parameterized0   |    15|
+|6     |  exponent_2            |DLatch__parameterized0_0 |     8|
+|7     |  incarcare_operanzi    |MuxOperand               |   112|
+|8     |  mantisa_1             |DLatch                   |  1664|
+|9     |  mantisa_2             |DLatch_1                 |   138|
+|10    |  normalizarea          |NormalizeExpMan          |     2|
+|11    |  rst_debounced         |Debouncer                |     4|
+|12    |  salvare_mantisa       |DLatch__parameterized2   |     1|
+|13    |  start_debounced       |Debouncer_2              |     4|
++------+------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 921.414 ; gain = 661.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 60 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:14 ; elapsed = 00:01:30 . Memory (MB): peak = 921.414 ; gain = 303.043
+Synthesis Optimization Complete : Time (s): cpu = 00:01:41 ; elapsed = 00:01:42 . Memory (MB): peak = 921.414 ; gain = 661.945
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 88 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:44 ; elapsed = 00:01:47 . Memory (MB): peak = 921.414 ; gain = 673.539
+INFO: [Common 17-1381] The checkpoint 'D:/School - V/Vasy/An3/SSC/FP Multiplier/FP Multiplier/FP Multiplier.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 921.414 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 28 12:35:17 2019...
